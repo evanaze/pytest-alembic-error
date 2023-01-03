@@ -4,7 +4,7 @@ from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 
 from alembic import context
-from . import main
+from pytest_alembic_error import main
 
 config = context.config
 
